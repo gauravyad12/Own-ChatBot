@@ -49,7 +49,7 @@ function takeCommand(message) {
         speak("Hello Sir, How May I Help You?");
     } else if (message.includes("open github profile")) {
         window.open("https://github.com/gauravyad12/", "_blank");
-        speak("Opening Google...");
+        speak("Opening Github...");
     } else if (message.includes("open google")) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
