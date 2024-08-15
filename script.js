@@ -47,8 +47,9 @@ btn.addEventListener('click', () => {
 function takeCommand(message) {
     if (message.includes('hey') || message.includes('hello')) {
         speak("Hello Sir, How May I Help You?");
-    if (message.includes('Darkdev') || message.includes('abhi')) {
-        speak("Gaurav kumar yadav (DARKDEV)");
+    } else if (message.includes("open github profile")) {
+        window.open("https://github.com/gauravyad12/", "_blank");
+        speak("Opening Google...");
     } else if (message.includes("open google")) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
